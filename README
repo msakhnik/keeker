@@ -1,0 +1,8 @@
+INSTALL
+1) run ./configure
+2) make
+3) go to "src" directory
+4) run execute file
+
+
+Misha Sakhnik, 2012
