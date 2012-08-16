@@ -1,9 +1,13 @@
-#include <iostream>
+#include <cstdlib>
+#include "Form.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char** argv)
 {
-    cerr << "In main.cpp" << endl;
+    Gtk::Main kit(argc, argv);
+    cForm form;
+    
+    Gtk::Main::run(form);
     return 0;
 }
